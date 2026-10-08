@@ -1,6 +1,9 @@
+import { useState } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
+
 import ProtectedRoute from "./components/ProtectedRoute";
 import AppLayout from "./layouts/AppLayout";
+import Intro from "./pages/Intro";
 
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
@@ -14,7 +17,14 @@ import FolderDetailPage from "./pages/FolderDetailPage";
 import GroupsPage from "./pages/GroupsPage";
 import GroupDetailPage from "./pages/GroupDetailPage";
 import BadgesPage from "./pages/BadgesPage";
+
 function App() {
+  const [showIntro, setShowIntro] = useState(true);
+
+  if (showIntro) {
+    return <Intro onFinish={() => setShowIntro(false)} />;
+  }
+
   return (
     <Routes>
       {/* --- Pages publiques --- */}
@@ -35,10 +45,10 @@ function App() {
         <Route path="/quizzes/:id" element={<QuizPage />} />
         <Route path="/progress" element={<ProgressPage />} />
         <Route path="/folders" element={<FoldersPage />} />
-<Route path="/folders/:id" element={<FolderDetailPage />} />
-<Route path="/groups" element={<GroupsPage />} />
-<Route path="/groups/:id" element={<GroupDetailPage />} />
-<Route path="/badges" element={<BadgesPage />} />
+        <Route path="/folders/:id" element={<FolderDetailPage />} />
+        <Route path="/groups" element={<GroupsPage />} />
+        <Route path="/groups/:id" element={<GroupDetailPage />} />
+        <Route path="/badges" element={<BadgesPage />} />
       </Route>
 
       {/* --- Redirection par défaut --- */}
