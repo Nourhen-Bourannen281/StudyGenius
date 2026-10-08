@@ -1,0 +1,137 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "folders": "My Folders",
+    "groups": "Groups",
+    "upload": "Import a Course",
+    "progress": "Progress",
+    "badges": "Achievements",
+    "logout": "Log out",
+    "lightMode": "Light mode",
+    "darkMode": "Dark mode"
+  },
+  "auth": {
+    "welcomeBack": "Welcome back",
+    "loginSubtitle": "Sign in to StudyGenius",
+    "createAccount": "Create your account",
+    "registerSubtitle": "Join StudyGenius for free",
+    "email": "Email",
+    "password": "Password",
+    "passwordMin": "Password (6 characters min.)",
+    "fullName": "Full name",
+    "login": "Sign in",
+    "register": "Create my account",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "signUp": "Create an account",
+    "signIn": "Sign in",
+    "studyLevel": {
+      "lycee": "High school",
+      "licence": "Bachelor's",
+      "master": "Master's",
+      "autre": "Other"
+    }
+  },
+  "dashboard": {
+    "greeting": "Hello",
+    "subtitle": "Here are your imported courses",
+    "newCourse": "New course",
+    "searchPlaceholder": "Search a course by title or subject...",
+    "noCourses": "No courses yet",
+    "noCoursesSubtitle": "Import your first course to get started",
+    "importCourse": "Import a course",
+    "noResults": "No courses match"
+  },
+  "upload": {
+    "title": "Import a course",
+    "subtitle": "A PDF or pasted text — StudyGenius handles the rest",
+    "pdfTab": "PDF file",
+    "textTab": "Paste text",
+    "titlePlaceholder": "Course title",
+    "subjectPlaceholder": "Subject (e.g. Mathematics)",
+    "noFolder": "No folder",
+    "noGroup": "Personal course (no group)",
+    "shareIn": "Share in:",
+    "dropZone": "Click to choose a PDF file",
+    "maxSize": "Max 10 MB",
+    "textPlaceholder": "Paste your course content here...",
+    "submit": "Import course"
+  },
+  "course": {
+    "generateSummary": "Generate summary",
+    "generateQuiz": "Generate a quiz",
+    "generatePredictions": "Exam predictions",
+    "summaryTitle": "Structured summary",
+    "keyPoints": "Key points",
+    "predictionsTitle": "Exam predictions",
+    "pdf": "PDF"
+  },
+  "quiz": {
+    "level": "Quiz — level",
+    "questions": "questions",
+    "submit": "Submit my answers",
+    "yourScore": "Your score",
+    "correctAnswer": "Correct answer:",
+    "consecutiveDays": "consecutive days!"
+  },
+  "folders": {
+    "title": "My folders",
+    "subtitle": "Organize your courses by subject",
+    "newFolder": "New folder",
+    "searchPlaceholder": "Search a folder...",
+    "noFolders": "No folders yet",
+    "noFoldersSubtitle": "Create your first folder to organize your courses",
+    "coursesCount": "course(s)",
+    "folderName": "Folder name",
+    "editFolder": "Edit folder",
+    "createFolder": "Create",
+    "backToFolders": "Back to folders",
+    "emptyFolder": "This folder has no courses"
+  },
+  "groups": {
+    "title": "Study groups",
+    "subtitle": "Study and progress with your friends",
+    "join": "Join",
+    "create": "Create a group",
+    "searchPlaceholder": "Search a group...",
+    "noGroups": "No groups yet",
+    "noGroupsSubtitle": "Create a group or join one with a code",
+    "membersCount": "member(s)",
+    "groupName": "Group name",
+    "inviteCode": "Invite code (e.g. a1b2c3d4)",
+    "leaderboard": "Leaderboard",
+    "sharedCourses": "Shared courses",
+    "noSharedCourses": "No courses shared in this group yet.",
+    "importedBy": "Imported by",
+    "startCall": "Start a call",
+    "callInProgress": "Calling...",
+    "waitingAnswer": "Waiting for a member to answer",
+    "cancelCall": "Cancel",
+    "incomingCall": "Incoming call",
+    "calling": "is calling you",
+    "accept": "Accept",
+    "decline": "Decline",
+    "leaveCall": "Leave call"
+  },
+  "progress": {
+    "title": "Your progress",
+    "subtitle": "Average score per course",
+    "noData": "Take a quiz to see your progress here",
+    "quizzesTaken": "quiz(zes) taken"
+  },
+  "badges": {
+    "title": "Achievements",
+    "unlocked": "unlocked",
+    "unlockedOn": "Unlocked on",
+    "toastTitle": "Achievement unlocked!"
+  },
+  "common": {
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "confirm": "Confirm",
+    "error": "An error occurred"
+  }
+}

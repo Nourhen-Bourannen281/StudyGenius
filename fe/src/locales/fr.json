@@ -1,0 +1,137 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "folders": "Mes dossiers",
+    "groups": "Groupes",
+    "upload": "Importer un cours",
+    "progress": "Progression",
+    "badges": "Succès",
+    "logout": "Déconnexion",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre"
+  },
+  "auth": {
+    "welcomeBack": "Content de te revoir",
+    "loginSubtitle": "Connecte-toi à StudyGenius",
+    "createAccount": "Crée ton compte",
+    "registerSubtitle": "Rejoins StudyGenius gratuitement",
+    "email": "Email",
+    "password": "Mot de passe",
+    "passwordMin": "Mot de passe (6 caractères min.)",
+    "fullName": "Nom complet",
+    "login": "Se connecter",
+    "register": "Créer mon compte",
+    "noAccount": "Pas encore de compte ?",
+    "hasAccount": "Déjà un compte ?",
+    "signUp": "Créer un compte",
+    "signIn": "Se connecter",
+    "studyLevel": {
+      "lycee": "Lycée",
+      "licence": "Licence",
+      "master": "Master",
+      "autre": "Autre"
+    }
+  },
+  "dashboard": {
+    "greeting": "Bonjour",
+    "subtitle": "Voici tes cours importés",
+    "newCourse": "Nouveau cours",
+    "searchPlaceholder": "Rechercher un cours par titre ou matière...",
+    "noCourses": "Aucun cours pour le moment",
+    "noCoursesSubtitle": "Importe ton premier cours pour commencer",
+    "importCourse": "Importer un cours",
+    "noResults": "Aucun cours ne correspond à"
+  },
+  "upload": {
+    "title": "Importer un cours",
+    "subtitle": "Un PDF ou du texte collé — StudyGenius s'occupe du reste",
+    "pdfTab": "Fichier PDF",
+    "textTab": "Coller du texte",
+    "titlePlaceholder": "Titre du cours",
+    "subjectPlaceholder": "Matière (ex: Mathématiques)",
+    "noFolder": "Aucun dossier",
+    "noGroup": "Cours personnel (aucun groupe)",
+    "shareIn": "Partager dans :",
+    "dropZone": "Clique pour choisir un fichier PDF",
+    "maxSize": "Max 10 Mo",
+    "textPlaceholder": "Colle ici le contenu de ton cours...",
+    "submit": "Importer le cours"
+  },
+  "course": {
+    "generateSummary": "Générer le résumé",
+    "generateQuiz": "Générer un quiz",
+    "generatePredictions": "Prédictions d'examen",
+    "summaryTitle": "Résumé structuré",
+    "keyPoints": "Points clés",
+    "predictionsTitle": "Prédictions d'examen",
+    "pdf": "PDF"
+  },
+  "quiz": {
+    "level": "Quiz — niveau",
+    "questions": "questions",
+    "submit": "Valider mes réponses",
+    "yourScore": "Ton score",
+    "correctAnswer": "Bonne réponse :",
+    "consecutiveDays": "jours consécutifs !"
+  },
+  "folders": {
+    "title": "Mes dossiers",
+    "subtitle": "Organise tes cours par matière",
+    "newFolder": "Nouveau dossier",
+    "searchPlaceholder": "Rechercher un dossier...",
+    "noFolders": "Aucun dossier pour le moment",
+    "noFoldersSubtitle": "Crée ton premier dossier pour organiser tes cours",
+    "coursesCount": "cours",
+    "folderName": "Nom du dossier",
+    "editFolder": "Modifier le dossier",
+    "createFolder": "Créer",
+    "backToFolders": "Retour aux dossiers",
+    "emptyFolder": "Ce dossier ne contient aucun cours"
+  },
+  "groups": {
+    "title": "Groupes d'étude",
+    "subtitle": "Étudie et progresse avec tes amis",
+    "join": "Rejoindre",
+    "create": "Créer un groupe",
+    "searchPlaceholder": "Rechercher un groupe...",
+    "noGroups": "Aucun groupe pour le moment",
+    "noGroupsSubtitle": "Crée un groupe ou rejoins-en un avec un code",
+    "membersCount": "membre(s)",
+    "groupName": "Nom du groupe",
+    "inviteCode": "Code d'invitation (ex: a1b2c3d4)",
+    "leaderboard": "Classement",
+    "sharedCourses": "Cours partagés",
+    "noSharedCourses": "Aucun cours partagé pour le moment dans ce groupe.",
+    "importedBy": "Importé par",
+    "startCall": "Lancer un appel",
+    "callInProgress": "Appel en cours...",
+    "waitingAnswer": "En attente qu'un membre réponde",
+    "cancelCall": "Annuler",
+    "incomingCall": "Appel entrant",
+    "calling": "t'appelle",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "leaveCall": "Quitter l'appel"
+  },
+  "progress": {
+    "title": "Ta progression",
+    "subtitle": "Score moyen par cours",
+    "noData": "Passe un quiz pour voir ta progression ici",
+    "quizzesTaken": "quiz passé(s)"
+  },
+  "badges": {
+    "title": "Succès",
+    "unlocked": "débloqués",
+    "unlockedOn": "Débloqué le",
+    "toastTitle": "Succès débloqué !"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "confirm": "Confirmer",
+    "error": "Une erreur est survenue"
+  }
+}

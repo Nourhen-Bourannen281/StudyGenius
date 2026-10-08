@@ -1,0 +1,137 @@
+{
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "folders": "ملفاتي",
+    "groups": "المجموعات",
+    "upload": "استيراد درس",
+    "progress": "التقدم",
+    "badges": "الإنجازات",
+    "logout": "تسجيل الخروج",
+    "lightMode": "الوضع الفاتح",
+    "darkMode": "الوضع الداكن"
+  },
+  "auth": {
+    "welcomeBack": "مرحباً بعودتك",
+    "loginSubtitle": "سجّل الدخول إلى StudyGenius",
+    "createAccount": "أنشئ حسابك",
+    "registerSubtitle": "انضم إلى StudyGenius مجاناً",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "passwordMin": "كلمة المرور (6 أحرف على الأقل)",
+    "fullName": "الاسم الكامل",
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حسابي",
+    "noAccount": "ليس لديك حساب؟",
+    "hasAccount": "لديك حساب بالفعل؟",
+    "signUp": "إنشاء حساب",
+    "signIn": "تسجيل الدخول",
+    "studyLevel": {
+      "lycee": "ثانوي",
+      "licence": "إجازة",
+      "master": "ماجستير",
+      "autre": "أخرى"
+    }
+  },
+  "dashboard": {
+    "greeting": "مرحباً",
+    "subtitle": "هذه دروسك المستوردة",
+    "newCourse": "درس جديد",
+    "searchPlaceholder": "ابحث عن درس بالعنوان أو المادة...",
+    "noCourses": "لا توجد دروس بعد",
+    "noCoursesSubtitle": "استورد درسك الأول للبدء",
+    "importCourse": "استيراد درس",
+    "noResults": "لا توجد دروس مطابقة لـ"
+  },
+  "upload": {
+    "title": "استيراد درس",
+    "subtitle": "ملف PDF أو نص ملصق — StudyGenius يهتم بالباقي",
+    "pdfTab": "ملف PDF",
+    "textTab": "لصق نص",
+    "titlePlaceholder": "عنوان الدرس",
+    "subjectPlaceholder": "المادة (مثال: الرياضيات)",
+    "noFolder": "بدون ملف",
+    "noGroup": "درس شخصي (بدون مجموعة)",
+    "shareIn": "مشاركة في:",
+    "dropZone": "اضغط لاختيار ملف PDF",
+    "maxSize": "الحد الأقصى 10 ميجابايت",
+    "textPlaceholder": "الصق محتوى درسك هنا...",
+    "submit": "استيراد الدرس"
+  },
+  "course": {
+    "generateSummary": "توليد الملخص",
+    "generateQuiz": "توليد اختبار",
+    "generatePredictions": "توقعات الامتحان",
+    "summaryTitle": "ملخص منظم",
+    "keyPoints": "النقاط الرئيسية",
+    "predictionsTitle": "توقعات الامتحان",
+    "pdf": "PDF"
+  },
+  "quiz": {
+    "level": "اختبار — المستوى",
+    "questions": "أسئلة",
+    "submit": "إرسال إجاباتي",
+    "yourScore": "نتيجتك",
+    "correctAnswer": "الإجابة الصحيحة:",
+    "consecutiveDays": "أيام متتالية!"
+  },
+  "folders": {
+    "title": "ملفاتي",
+    "subtitle": "نظّم دروسك حسب المادة",
+    "newFolder": "ملف جديد",
+    "searchPlaceholder": "ابحث عن ملف...",
+    "noFolders": "لا توجد ملفات بعد",
+    "noFoldersSubtitle": "أنشئ ملفك الأول لتنظيم دروسك",
+    "coursesCount": "درس/دروس",
+    "folderName": "اسم الملف",
+    "editFolder": "تعديل الملف",
+    "createFolder": "إنشاء",
+    "backToFolders": "العودة إلى الملفات",
+    "emptyFolder": "هذا الملف لا يحتوي على أي درس"
+  },
+  "groups": {
+    "title": "مجموعات الدراسة",
+    "subtitle": "ادرس وتقدم مع أصدقائك",
+    "join": "انضمام",
+    "create": "إنشاء مجموعة",
+    "searchPlaceholder": "ابحث عن مجموعة...",
+    "noGroups": "لا توجد مجموعات بعد",
+    "noGroupsSubtitle": "أنشئ مجموعة أو انضم إلى واحدة برمز",
+    "membersCount": "عضو/أعضاء",
+    "groupName": "اسم المجموعة",
+    "inviteCode": "رمز الدعوة (مثال: a1b2c3d4)",
+    "leaderboard": "الترتيب",
+    "sharedCourses": "الدروس المشتركة",
+    "noSharedCourses": "لا توجد دروس مشتركة في هذه المجموعة بعد.",
+    "importedBy": "استورده",
+    "startCall": "بدء مكالمة",
+    "callInProgress": "جارٍ الاتصال...",
+    "waitingAnswer": "في انتظار رد أحد الأعضاء",
+    "cancelCall": "إلغاء",
+    "incomingCall": "مكالمة واردة",
+    "calling": "يتصل بك",
+    "accept": "قبول",
+    "decline": "رفض",
+    "leaveCall": "مغادرة المكالمة"
+  },
+  "progress": {
+    "title": "تقدمك",
+    "subtitle": "متوسط النتيجة لكل درس",
+    "noData": "أنجز اختباراً لترى تقدمك هنا",
+    "quizzesTaken": "اختبار/اختبارات منجزة"
+  },
+  "badges": {
+    "title": "الإنجازات",
+    "unlocked": "مفتوحة",
+    "unlockedOn": "فُتحت في",
+    "toastTitle": "تم فتح إنجاز!"
+  },
+  "common": {
+    "loading": "جارٍ التحميل...",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "confirm": "تأكيد",
+    "error": "حدث خطأ"
+  }
+}
