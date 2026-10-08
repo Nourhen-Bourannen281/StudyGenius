@@ -2,10 +2,27 @@ const fs = require("fs");
 const path = require("path");
 const jwt = require("jsonwebtoken");
 
-const privateKey = fs.readFileSync(
-  path.join(__dirname, "..", "..", process.env.JAAS_PRIVATE_KEY_PATH.replace("./", "")),
-  "utf8"
-);
+let privateKey;
+
+// Render : clé privée stockée dans une variable d'environnement
+if (process.env.JAAS_PRIVATE_KEY) {
+  privateKey = process.env.JAAS_PRIVATE_KEY.replace(/\\n/g, "\n");
+}
+// Local : clé privée stockée dans le fichier .pk
+else if (process.env.JAAS_PRIVATE_KEY_PATH) {
+  const keyPath = path.join(
+    __dirname,
+    "..",
+    "..",
+    process.env.JAAS_PRIVATE_KEY_PATH.replace("./", "")
+  );
+
+  privateKey = fs.readFileSync(keyPath, "utf8");
+} else {
+  throw new Error(
+    "JAAS_PRIVATE_KEY or JAAS_PRIVATE_KEY_PATH is not configured"
+  );
+}
 
 const generateJaasToken = ({ userId, userName, roomName }) => {
   const now = Math.floor(Date.now() / 1000);
