@@ -19,11 +19,19 @@ import GroupDetailPage from "./pages/GroupDetailPage";
 import BadgesPage from "./pages/BadgesPage";
 
 function App() {
-  const [showIntro, setShowIntro] = useState(true);
-
+const [showIntro, setShowIntro] = useState(() => {
+  return !sessionStorage.getItem("studygenius_intro_shown");
+});
   if (showIntro) {
-    return <Intro onFinish={() => setShowIntro(false)} />;
-  }
+  return (
+    <Intro
+      onFinish={() => {
+        sessionStorage.setItem("studygenius_intro_shown", "true");
+        setShowIntro(false);
+      }}
+    />
+  );
+}
 
   return (
     <Routes>
