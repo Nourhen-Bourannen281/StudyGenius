@@ -29,9 +29,8 @@ const PORT = process.env.PORT || 5000;
 // Middlewares
 // ======================
 const allowedOrigins = process.env.NODE_ENV === "production"
-  ? ["https://ton-domaine-frontend.com"] // à adapter lors du déploiement
+  ? ["https://study-genius-sand.vercel.app"]
   : ["http://localhost:5173"];
-
 app.use(cors({ origin: allowedOrigins }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
